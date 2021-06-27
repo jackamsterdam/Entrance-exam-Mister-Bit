@@ -100,14 +100,20 @@ function onBall3Click() {
 
    
 }
-
+//BONUS
 function onBall4Click() {
+    let ball3 = document.querySelector('.ball3');
     let ball = document.querySelector('.ball4');
+    //console.log(ball3)
+    if (ball3.classList.contains("active")) {  //why is ball3.name === 'active' showing up as false?? because there is more than one class.
     let size = prompt("What should be the size of the ball?")
 
     if (size > 1000) {
         alert('Too Big!')
-    }
+    } 
+   } else {
+       ball.preventDefault()  //why does ball3.preventDefault() work also?
+   }
 }
 
 
