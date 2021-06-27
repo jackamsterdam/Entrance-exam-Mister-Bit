@@ -102,8 +102,12 @@ function onBall3Click() {
 }
 
 function onBall4Click() {
-    var ball = document.querySelector('.ball4');
-    alert('Ball4');
+    let ball = document.querySelector('.ball4');
+    let size = prompt("What should be the size of the ball?")
+
+    if (size > 1000) {
+        alert('Too Big!')
+    }
 }
 
 
