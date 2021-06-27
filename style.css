@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+    line-height: 50px;
+}
+.ball1 {
+    background-color: yellow;
+}
+.ball2 {
+    background-color: orange;
+}
+.ball3 {
+    background-color: gray;
+}
+.ball4 {
+    background-color: brown;
+}
